@@ -1,0 +1,131 @@
+
+.counter-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of counters on small screens */
+    justify-content: center;
+    gap: 110px; /* Spacing between counters */
+    max-width: 90%; /* Ensure it's not too wide */
+}
+.counter-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.counter-box {
+    width: 120px; /* Fixed width for each counter box */
+    height: 120px; /* Fixed height for each counter box to make it square */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 2rem;
+    color: #333;
+    transition: all 0.3s ease;
+}
+.counter-heading p {
+  margin: 0; /* Remove default margin for the p tag */
+  font-size: 1.25rem; /* Set a font size for the heading */
+  color: #333; /* Color for the heading text */
+  font-weight: bold; /* Make the text bold */
+  text-transform: uppercase; /* Optional: Makes heading text uppercase */
+  width: 100%; /* Ensures the heading takes full width */
+  overflow-wrap: break-word; /* Ensures long text breaks to fit within the width */
+  word-wrap: break-word; /* For older browsers */
+  padding-bottom: 10px;
+}
+.counter-box:nth-child(odd) {
+    background-color: #007bff;
+    color: white;
+}
+.counter-box:nth-child(even) {
+    background-color: #007bff;
+    color: white;
+}
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .counter-box {
+        width: 100px;
+        height: 100px;
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 576px) {
+    .counter-box {
+        width: 90px;
+        height: 90px;
+        font-size: 1.2rem;
+    }
+}
+
+.feature-icon {
+    font-size: 50px;
+    color: #007bff;
+  }
+  .feature-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .feature-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .feature-description {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-top: 10px;
+  }
+  .feature-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  .read-more-btn {
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .read-more-btn:hover {
+    background-color: #0056b3;
+  }
+ /* Responsive adjustments */
+ @media (max-width: 767px) {
+    .read-more-btn {
+      width: 100%;  /* Make button full-width on small screens */
+      padding: 12px 20px;
+    }
+    .feature-card {
+      padding: 15px;  /* Reduce padding for small screens */
+    }
+  }
+  
+  /* Adjust image size for smaller screens */
+  @media (max-width: 575px) {
+    .feature-img {
+      width: 80px;
+      height: 80px;
+    }
+    .feature-title {
+      font-size: 1.1rem;
+    }
+    .feature-description {
+      font-size: 0.9rem;
+    }
+  }

@@ -1,0 +1,28 @@
+.feature-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .feature-card h4 {
+    color: #007bff;
+  }
+
+  .feature-card .btn {
+    margin-top: 10px;
+  }
+
+  .feature-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  /* Hide additional content initially */
+  .extra-content {
+    display: none;
+    margin-top: 15px;
+    color: #555;
+  }

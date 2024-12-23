@@ -1,0 +1,54 @@
+[29-Dec-2023 09:54:02 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 11:42:53 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 11:42:53 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 11:43:01 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 11:43:01 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 11:45:32 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 11:45:32 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 11:46:22 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 11:46:22 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:10:18 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:10:18 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:13:04 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'G1i9r9i9sh@#'@'119.18.54.120' (using password: NO) in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:25:37 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:25:37 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:28:46 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for avala3qf_manpower failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:28:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for avala3qf_manpower failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php:9
+Stack trace:
+#0 /home2/avala3qf/public_html/Register_Submit.php(9): mysqli->__construct('avala3qf_manpow...', 'G1i9r9i9sh@#', Object(SensitiveParameterValue), 'avala3qf_manpow...')
+#1 {main}
+  thrown in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:28:52 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for avala3qf_manpower failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:28:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for avala3qf_manpower failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php:9
+Stack trace:
+#0 /home2/avala3qf/public_html/Register_Submit.php(9): mysqli->__construct('avala3qf_manpow...', 'G1i9r9i9sh@#', Object(SensitiveParameterValue), 'avala3qf_manpow...')
+#1 {main}
+  thrown in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:28:58 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for avala3qf_manpower failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:28:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for avala3qf_manpower failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php:9
+Stack trace:
+#0 /home2/avala3qf/public_html/Register_Submit.php(9): mysqli->__construct('avala3qf_manpow...', 'G1i9r9i9sh@#', Object(SensitiveParameterValue), 'avala3qf_manpow...')
+#1 {main}
+  thrown in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:30:05 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:30:05 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:30:56 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:30:56 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:31:27 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:31:27 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:31:38 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:31:38 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:32:14 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:32:14 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:33:43 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:33:43 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:33:46 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:33:46 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:34:58 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:34:58 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:37:43 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:37:43 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:37:57 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:37:57 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:38:22 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
+[29-Dec-2023 12:38:22 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/avala3qf/public_html/Register_Submit.php on line 9
