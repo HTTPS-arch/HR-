@@ -1,1 +1,1 @@
-temporary testing text only 
+temporary testing text only for vscode terminal
