@@ -129,3 +129,50 @@
       font-size: 0.9rem;
     }
   }
+
+  /* Client Logos  */
+  .logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100px; /* Height adjusted for flexibility */
+    overflow: hidden;
+}
+
+.logo-box img {
+    max-width: 100%;
+    max-height: fit-content;
+    object-fit: cover;
+}
+
+/* Ensure logos are well-spaced and adjust for smaller screens */
+.logo-box img {
+    width: auto;
+}
+
+/* Media Queries for specific screen sizes */
+@media (min-width: 576px) { /* Small devices (portrait tablets) */
+    .logo-box img {
+        height: 70px;
+    }
+}
+
+@media (min-width: 768px) { /* Medium devices (landscape tablets) */
+    .logo-box img {
+        height: 80px;
+    }
+}
+
+@media (min-width: 992px) { /* Large devices (desktops) */
+    .logo-box img {
+        height: 100px;
+    }
+}
+
+@media (min-width: 1200px) { /* Extra Large devices (large desktops) */
+    .logo-box img {
+        height: 120px;
+    }
+}

@@ -49,7 +49,6 @@
 }
 
 html {
-  scroll-behavior: smooth;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -10466,3 +10465,150 @@ h6,
     
   }
   
+  .boxes-jobs{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+    flex-wrap: wrap;
+
+  }
+
+.box-job{
+  background-color: #FEFFFF;
+  width: 550px;
+  border-radius: 10px;
+  border: #E6E7E7 solid 2px;
+  box-shadow: #E6E7E7 10px 10px 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 25px;
+}
+
+hr{
+  border: 2px solid black;
+}
+
+.upper-job-card{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 40%;
+
+ 
+}
+
+.job-img-outer{
+  height: 100px;
+  width: 100px;
+  border: #E6E7E7 solid 2px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-img-outer img{
+  height: 100%;
+  width: 100%;
+}
+
+.right-area{
+  width: 70%;
+}
+
+.text-job{
+  color: #78797A;
+
+  display: flex;
+  flex-direction: column;
+  padding: 1px 4px;
+  gap: 12px;
+}
+
+
+.text-company-title{
+  font-size: 18px;
+}
+
+.text-job-salary-text{
+  color: black;
+  font-weight: 900;
+  font-size: 19px;
+}
+
+.per-month{
+  color: #78797A;
+}
+
+.hr{
+  border: 1px solid white;
+}
+
+.lower-job-card{
+  background-color: #89ccff;
+  margin-top: 10px;
+  height: 100%;
+  width: 100%;
+  padding: 13px 10px;
+
+  border-radius: 18px;
+  border: none;
+}
+
+.text-job-title{
+  color: white;
+  font-size: 28px;
+  font-weight: bolder;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.img-circle{
+  background-color: white;
+  display: flex;
+  justify-content: white;
+  align-items: center;
+
+  height: 25px;
+  width: 25px;
+
+  border-radius: 50%;
+}
+
+.job-location, .job-desc{
+  height: 20px;
+
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+
+  margin-bottom: 15px;
+}
+
+.job-location img,.job-desc img{
+  height: 100%;
+  width: 100%;
+}
+
+.job-apply-btn{
+  border: none;
+  background-color: white;
+  
+  font-size: 20px;
+  padding: 10px 0px;
+  width: 90%;
+  margin: 0px 20px;
+  border-radius: 14px;
+
+  text-decoration: none;
+
+  font-weight: 900;
+  box-shadow: 0px 0px 1px 1px gray;
+}
