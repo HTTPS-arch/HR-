@@ -10195,7 +10195,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link {
   font-family: 'Jost', sans-serif;
-  padding: 30px 15px;
+  padding: 30px 14px;
   font-size: 18px;
   font-weight: 500;
   color: #120F2D;
@@ -10484,7 +10484,7 @@ h6,
   width: 550px;
   border-radius: 10px;
   border: #E6E7E7 solid 2px;
-  box-shadow: #E6E7E7 10px 10px 10px;
+  box-shadow: #2878EB 10px 10px 10px;
 
   display: flex;
   flex-direction: column;
@@ -10554,7 +10554,7 @@ hr{
 }
 
 .lower-job-card{
-  background-color: #89ccff;
+  background-color: #2878EB;
   margin-top: 10px;
   height: 100%;
   width: 100%;
@@ -10562,6 +10562,7 @@ hr{
 
   border-radius: 18px;
   border: none;
+  color: white;
 }
 
 .text-job-title{

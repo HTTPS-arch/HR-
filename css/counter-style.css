@@ -3,7 +3,7 @@
     display: flex;
     flex-wrap: wrap; /* Allows wrapping of counters on small screens */
     justify-content: center;
-    gap: 110px; /* Spacing between counters */
+    gap: 100px; /* Spacing between counters */
     max-width: 90%; /* Ensure it's not too wide */
 }
 .counter-main {
